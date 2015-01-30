@@ -162,17 +162,12 @@ body {
   }
 }
 
-.tableformat{
-  vertical-align: central;
-  text-align: center;
-  margin-left: 10px;
-}
-
 .tablehead{
-  text-align: center;
   font-weight: bold;
+  font-size: 18px;
 }
 
-table, th, td {
+th, td {
     border: 1px solid;
+    padding: 10px;
 }
