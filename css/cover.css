@@ -161,3 +161,18 @@ body {
     width: 700px;
   }
 }
+
+.tableformat{
+  vertical-align: central;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.tablehead{
+  text-align: center;
+  font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid;
+}
