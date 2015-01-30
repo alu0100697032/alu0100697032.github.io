@@ -162,6 +162,8 @@ body {
   }
 }
 
+/*TableHead size text bigger and bold*/
+
 .tablehead{
   font-weight: bold;
   font-size: 18px;
@@ -170,4 +172,8 @@ body {
 th, td {
     border: 1px solid;
     padding: 10px;
+}
+
+a{
+  font-style: italic;
 }
