@@ -7,13 +7,18 @@
     <link rel="stylesheet" href="css/bootstrap.css"/>  
     <link rel="stylesheet" href="css/cover.css"/>
     <link rel="stylesheet" href="css/carousel.css"/>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/animaciones.js"></script>
 </head>
 <body>
     <div class="site-wrapper">
         <div class="site-wrapper-inner">
             <div class="cover-container">
                 <div class="masthead clearfix">
-                    <nav>
+                    <nav id="navbar" class="position-relative">
                         <ul class="nav masthead-nav">
                             <li class="active"><a href="index.html">Home</a></li>
                             <li><a href="https://github.com/alu0100697032">Github</a></li>
@@ -21,23 +26,19 @@
                     </nav>
                 </div>
                       
-                      <div class="title">
+                      <div class="title position-relative" id="title">
                           Subjects
                       </div>
                   
-                      <p><a class="btn btn-lg btn-danger" href="pl.html" role="button">Procesadores de Lenguajes</a></p>
+                      <p><a class="btn btn-lg btn-danger position-relative" href="pl.html" role="button" id="pl">Procesadores de Lenguajes</a></p>
                  
-                      <p><a class="btn btn-lg btn-danger" href="opt.html" role="button">Optimización</a></p>
+                      <p><a class="btn btn-lg btn-danger position-relative" href="opt.html" role="button" id="opt">Optimización</a></p>
                 
-                      <p><a class="btn btn-lg btn-danger" href="#" role="button">Diseño y Análisis de Algoritmos</a></p>
+                      <p><a class="btn btn-lg btn-danger position-relative" href="#" role="button" id="daa">Diseño y Análisis de Algoritmos</a></p>
                         
                 
             </div>
         </div>
     </div>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
