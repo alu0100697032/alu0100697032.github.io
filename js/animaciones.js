@@ -1,3 +1,4 @@
+/*Anima la página subjects js*/
 $(document).ready(function(){
    $("#title").animate({
       bottom: '100px',
