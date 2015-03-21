@@ -22,6 +22,6 @@ $(document).ready(function(){
    }, "slow");
    /*Title*/
    $(".title").click(function(){
-      $(".table").slideDown();
+      $(".table").slideToggle();
    });
 });
