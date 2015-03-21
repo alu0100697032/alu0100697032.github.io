@@ -1,6 +1,6 @@
 /*Anima la página subjects js*/
 $(document).ready(function(){
-   $("#title").animate({
+   $(".title").animate({
       bottom: '100px',
       fontSize: '75px',
    }, "slow");
@@ -13,7 +13,15 @@ $(document).ready(function(){
    $("#daa").animate({
       bottom: '100px',
    }, "slow");
-   $("#navbar").animate({
+   $(".nav-bar").animate({
       left: '100px',
    }, "slow");
+   /*Table*/
+   $(".table").animate({
+      border: '5px solid',
+   }, "slow");
+   /*Title*/
+   $(".title").click(function(){
+      $(".table").slideDown();
+   });
 });

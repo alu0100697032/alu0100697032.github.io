@@ -6568,3 +6568,7 @@ button.close {
 .position-relative{
   position: relative;
 }
+
+.table{
+    display: none;
+}
