@@ -11,10 +11,24 @@ $(document).ready(function(){
    /*Table*/
 
    /*Title*/
-   $(".title").click(function(){
-      $(".table").slideToggle();
-   });
    $(".title").animate({
       fontSize: '50px',
    }, "slow");
+   $(".togle").click(function(){
+      $(".table").slideToggle();
+   });
+   $(".togle").animate({
+      fontSize: '50px',
+      bottom: '75px',
+   }, 'slow');
+   $(".togle").mouseenter(function(){
+      $(this).animate({
+         opacity: '0.5',
+      });
+   });
+   $(".togle").mouseleave(function(){
+      $(this).animate({
+         opacity: '1.0',
+      });
+   });
 });
